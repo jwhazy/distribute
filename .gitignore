@@ -33,3 +33,5 @@ lerna-debug.log*
 .DS_Store
 
 worker-configuration.d.ts
+
+wrangler.remote.jsonc

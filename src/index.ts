@@ -1,9 +1,8 @@
 import { Hono } from "hono";
+import upload from "./upload";
 
 const app = new Hono();
 
-app.get("/", (c) => {
-	return c.notFound();
-});
+app.route("/upload", upload);
 
 export default app;
